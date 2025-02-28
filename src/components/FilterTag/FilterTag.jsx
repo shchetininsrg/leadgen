@@ -41,9 +41,6 @@ function FilterTag({
           }
         });
 
-        // Выводим options в консоль для проверки
-        console.log('Options:', JSON.stringify(optionsArray, null, 2));
-
         // Сохраняем options в состояние (если используется React)
         setCustomFields(optionsArray);
 

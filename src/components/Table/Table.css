@@ -4,6 +4,9 @@
 	border: 1px solid #dddddd;
 	border-collapse: collapse; 
 }
+.table-mini {
+	width: 50%;
+}
 .table th {
 	font-weight: bold;
 	padding: 5px;
@@ -15,3 +18,11 @@
 	padding: 5px;
 }
 
+.table-container {
+	display: flex;
+	gap: 30px;
+}
+
+.table_tr {
+	background-color: #efefef;
+}
